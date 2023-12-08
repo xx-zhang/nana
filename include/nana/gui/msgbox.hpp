@@ -13,7 +13,14 @@
 #ifndef NANA_GUI_MSGBOX_HPP
 #define NANA_GUI_MSGBOX_HPP
 #include "../push_ignore_diagnostic"
-#include <sstream>
+#include "basis.hpp"
+
+#include "sstream"
+#include "vector"
+#include "widgets/picture.hpp"
+#include <algorithm> // max
+#include <cstdlib>   //include std::abs
+#include <functional>
 
 namespace nana {
 // Forward declaration of filebox for msgbox
